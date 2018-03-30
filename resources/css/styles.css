@@ -1,0 +1,36 @@
+body{
+ font-size: 18px;
+ margin-top: 4rem;
+ background-image: url("../images/background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.inputButton{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .5rem;
+    display: inline-block;
+    background-color: whitesmoke
+    ;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border: none;
+}
+
+#sectionContainer{
+    display:flex;
+    width: 30%;
+    margin: 0 auto;
+
+}
+ 
+#turns{
+    margin: 20px;
+}
+
+h2{
+    padding-bottom : 3rem;
+}
