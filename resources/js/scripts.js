@@ -39,7 +39,7 @@ function playerTurn(turn, id){
             console.log("Winner as found!");
             playerSelection === "X"? playerWins.X++: playerWins.O++;
             $('#win0').text(playerWins.X);
-            $('#win1').text(playerWins.Y);
+            $('#win1').text(playerWins.O);
             
             reset();
         }
